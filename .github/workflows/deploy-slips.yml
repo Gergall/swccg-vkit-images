@@ -7,7 +7,7 @@ on:
     branches: 
       - main
     paths:
-      - 'cards/standard'
+      - 'cards/standard/**'
 
 jobs:
   dewit: 
