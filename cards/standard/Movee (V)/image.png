@@ -1,0 +1,42 @@
+#!/bin/bash
+
+function m() {
+  FROM=$1
+  TO=$2
+  echo "From: [$FROM] To: [$TO]"
+  mkdir -p "../../../standard/$TO"
+  cp $FROM "../../../standard/$TO/image.png"
+}
+
+m alienrabble.png "Alien Rabble (V)"
+m anakinskywalkerjediknight.png "Anakin Skywalker Jedi Knight (V)"
+m bowcaster.png "Bowcaster (V)"
+m chewbaccadefenderofkashyyyk.png "Chewbacca Defender Of Kashyyyk (V)"
+m communing.png "Communing (V)"
+m coruscantjeditemplemeditationroom.png "Coruscant Jedi Temple Meditation Room (V)"
+m dagobahyodashut.png "Dagobah Yodas Hut (V)"
+m figrindanthemodalnodes.png "Figrin Dan The Modal Nodes (V)"
+m freerideendorcelebration.png "Free Ride Endor Celebration (V)"
+m goldenrod.png "Goldenrod (V)"
+m grogu.png "Grogu (V)"
+m heavyinfantrymandalorian.png "Heavy Infantry Mandalorian (V)"
+m iampartofthelivingforce.png "I Am Part Of The Living Force (V)"
+m jediholocron.png "Jedi Holocron (V)"
+m kashyyyksacredfallsforest.png "Kashyyyk Sacred Falls Forest (V)"
+m kashyyykworksettlement121.png "Kashyyyk Work Settlement 121 (V)"
+m ketwol.png "Ketwol (V)"
+m landoherooftherebellion.png "Lando Hero Of The Rebellion (V)"
+m masterkenobi.png "Master Kenobi (V)"
+m masterquigonjinnanoldfriend.png "Master Qui-Gon Jinn An Old Friend (V)"
+m masteryoda.png "Master Yoda (V)"
+m moveem.sh "Movee (V)"
+m offworldjawas.png "Off World Jawas (V)"
+m paigetico.png "Paige Tico (V)"
+m tarfful.png "Tarfful (V)"
+m tatooineobiwanshut.png "Tatooine Obi-Wans Hut (V)"
+m thisiswherethefunbegins.png "This Is Where The Fun Begins (V)"
+m wookieeguide.png "Wookiee Guide (V)"
+m wookieehomestead.png "Wookiee Homestead (V)"
+m wookieeroar.png "Wookiee Roar (V)"
+m wookieewarrior.png "Wookiee Warrior (V)"
+m yarua.png "Yarua (V)"
