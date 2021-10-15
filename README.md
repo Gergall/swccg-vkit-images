@@ -8,7 +8,7 @@ Virtual Slip Images used to power [vkit.starwarsccg.org](https://vkit.starwarscc
 
 * Each card gets a directory named after the card.
 * All **Decipher** cards are named according to their name.
-* All **Virtual** cards are named with the suffix `(V)` in their name.
+* All **Virtual** cards which overlay an existing card (of the same name) are named with the suffix `(V)` in their name. All other virtual cards do not need the (V) suffix
 * Cards which have received **Errata** updates, _aka game text updates,_ are named with the suffix `(Errata)` in their name.
 
 | `Darth Vader (Errata)` | `Darth Vader (V)` | `Escape Pod & We're Doomed` |
