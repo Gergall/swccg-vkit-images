@@ -22,7 +22,7 @@ jobs:
 
       - name: sync to s3
         run: |
-          aws s3 sync ./cards/standard/ s3://res.starwarsccg.org/vkit/cards/standard/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json
+          aws s3 sync ./cards/standard/ s3://res.starwarsccg.org/vkit/cards/standard/ --exclude '.git/*' --exclude '.github/*' --exclude 'node_modules/*' --exclude README.md --exclude package-lock.json --exclude package.json --delete
           echo "Cloudfront Invalidation"
           aws cloudfront create-invalidation --distribution-id E4R02360UW5RJ --paths "/vkit/cards/standard/"
         env:
