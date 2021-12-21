@@ -19,8 +19,8 @@ Virtual Slip Images used to power [vkit.starwarsccg.org](https://vkit.starwarscc
 * Within each card directory name is a single file named: `image.png`
 
 | `Darth Vader (Errata)/image.png` | `Darth Vader (V)/image.png` | `Escape Pod & Were Doomed (Errata)/image.png` |
-|-|-|
-| ![](cards/standard/Darth%20Vader%20(V)/image.png) | ![](cards/standard/Darth%20Vader%20(V)/image.png) | ![](cards/standard/Escape Pod & Were Doomed (Errata)/image.png) |
+|-|-|-|
+| ![](cards/standard/Darth%20Vader%20(V)/image.png) | ![](cards/standard/Darth%20Vader%20(V)/image.png) | ![](cards/standard/Escape%20Pod%20&%20Were%20Doomed%20(Errata)/image.png) |
 
 
 
